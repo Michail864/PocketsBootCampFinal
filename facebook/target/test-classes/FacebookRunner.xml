@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook Automation Testing " parallel="false">
+
+    <parameter name="website"  value="https://www.facebook.com/"/>
+    <parameter name="isMobile"  value="false"/>
+
+    <test name="Facebook Test">
+        <classes>
+            <class name="facebooktests.FacebookTests"/>
+        </classes>
+    </test>
+</suite>

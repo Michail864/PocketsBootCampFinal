@@ -15,10 +15,17 @@
         <module>citibank</module>
         <module>cigna</module>
         <module>facebook</module>
+        <module>mobileTest</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+            <dependency>
+                <groupId>io.appium</groupId>
+                <artifactId>java-client</artifactId>
+                <version>7.0.0</version>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>

@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="generic" />
-        <module name="cigna" />
-        <module name="amazon" />
         <module name="facebook" />
+        <module name="generic" />
+        <module name="amazon" />
+        <module name="cigna" />
         <module name="citibank" />
+        <module name="mobileTest" />
         <module name="cnncom" />
       </profile>
     </annotationProcessing>
