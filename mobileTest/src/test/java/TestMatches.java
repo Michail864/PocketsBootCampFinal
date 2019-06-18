@@ -12,23 +12,18 @@ public class TestMatches extends PocketsCoreAPI {
         matches = PageFactory.initElements(driver, Matches.class);
     }
 
-    //Testcase 1. --
 
-    public void testLiveclick(){
+    public void testLiveclick() {
         matches.setMatchesUp();
         matches.clickLiveButton();
     }
 
-    //Testcase 2. --
-
-    @Test
+  //  @Test
     public void testUpcomingclick(){
         matches.setMatchesUp();
         matches.clickUpcoming();
     }
 
-
-    //Testcase 3. --
 
     public void testRecentClick(){
         matches.setMatchesUp();
