@@ -20,7 +20,7 @@ public class FacebookTests extends PocketsCoreAPI {
         return properties;
     }
 
-    //@Test
+    @Test
     public void facebookTestCases() throws IOException {
         Properties prop = loadProperties();
         String login = prop.getProperty("facebook-login");
@@ -39,6 +39,7 @@ public class FacebookTests extends PocketsCoreAPI {
         waitFor(1);
         driver.findElement(By.xpath("//*[@id=\"u_ps_fetchstream_12_3_6\"]/div/div[1]/a/img")).click();
         waitFor(1);
-
+        driver.findElement(By.className("_6xu6")).click();
+        waitFor(2);
     }
 }
