@@ -36,10 +36,11 @@ public class PocketsCoreAPI {
         options.addArguments("--disable-notifications");
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\wormi\\IdeaProjects\\PocketsBootcampWebAndMobile\\generic\\src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(website);
+        wait = new WebDriverWait(driver, 30);
         return driver;
     }
     public WebDriver setupAppium() throws MalformedURLException {
