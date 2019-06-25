@@ -21,7 +21,6 @@ public class CignaHomepageTest extends PocketsCoreAPI {
 
     //--- Testing registering an accoinut in cigna
 
-    @Test
     public void testLoginButton(){
         cignaHomePage.loginPageClick();
         waitFor(2);
@@ -60,5 +59,22 @@ public class CignaHomepageTest extends PocketsCoreAPI {
             }
         }
         System.out.println("Test passed");
+    }
+
+    //--- Search for medical tools and verify them----------------------------------------
+
+    @Test
+    public void testSearchFprMedicalTools(){
+        cignaHomePage.searchBoxSendKeys("medical tools");
+        List<WebElement> medicalTools = new ArrayList<WebElement>();
+        medicalTools = driver.findElements(By.className("csng-result-title"));
+        for (WebElement medicalTool : medicalTools){
+            if (medicalTool.getText().contains("Tools")){
+                System.out.println("Item was verified");
+            }
+            else{
+                System.out.println("Item found is not a medical tool");
+            }
+        }
     }
 }

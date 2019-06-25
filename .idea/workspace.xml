@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a13adff-b93c-4ab8-be42-8d2af3970d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cigna/src/main/java/CignaHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cigna/src/test/java/CignaHomepageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cigna/src/test/resources/CignaRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigna/src/test/java/CignaHomepageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cigna/src/test/java/CignaHomepageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,16 +52,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cigna/src/test/resources/CignaRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="60" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amazon/src/main/resources/properties/pockets.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -75,14 +73,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cigna/src/test/java/CignaHomepageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="276">
+              <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#763#775#0" expanded="true" />
                 <element signature="e#831#843#0" expanded="true" />
+                <element signature="e#2894#2906#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,12 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_wormi_IdeaProjects_PocketsBootcampWebAndMobile_cigna_src_test_resources_CignaRunner_xml - 2019.06.23 at 20h 07m 33s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/PocketsBootcampWebAndMobile/cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_PocketsBootcampWebAndMobile_cigna_src_test_resources_CignaRunner_xml - 2019.06.23 at 20h 18m 11s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/PocketsBootcampWebAndMobile/cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_wormi_IdeaProjects_PocketsBootcampWebAndMobile_cigna_src_test_resources_CignaRunner_xml - 2019.06.23 at 20h 19m 42s.xml">
       <configuration name="C:/Users/wormi/IdeaProjects/PocketsBootcampWebAndMobile/cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -388,12 +381,18 @@
     <history-entry file="C__Users_wormi_IdeaProjects_PocketsBootcampWebAndMobile_cigna_src_test_resources_CignaRunner_xml - 2019.06.23 at 20h 43m 41s.xml">
       <configuration name="C:/Users/wormi/IdeaProjects/PocketsBootcampWebAndMobile/cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_wormi_IdeaProjects_PocketsBootcampWebAndMobile_cigna_src_test_resources_CignaRunner_xml - 2019.06.24 at 20h 25m 43s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/PocketsBootcampWebAndMobile/cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_wormi_IdeaProjects_PocketsBootcampWebAndMobile_cigna_src_test_resources_CignaRunner_xml - 2019.06.24 at 20h 27m 03s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/PocketsBootcampWebAndMobile/cigna/src/test/resources/CignaRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16308725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16308725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -680,31 +679,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/amazon/src/main/resources/properties/pockets.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cigna/src/test/java/CignaHomepageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="276">
+          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#763#775#0" expanded="true" />
             <element signature="e#831#843#0" expanded="true" />
+            <element signature="e#2894#2906#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cigna/src/test/resources/CignaRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amazon/src/main/resources/properties/pockets.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
