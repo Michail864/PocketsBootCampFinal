@@ -42,6 +42,7 @@ public class PocketsCoreAPI {
         driver.get(website);
         wait = new WebDriverWait(driver, 30);
         return driver;
+
     }
     public WebDriver setupAppium() throws MalformedURLException {
     DesiredCapabilities caps = new DesiredCapabilities();

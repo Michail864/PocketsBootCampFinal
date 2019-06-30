@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Citibank Automation Testing " parallel="false">
+
+    <parameter name="website"  value="https://online.citi.com/US/login.do"/>
+    <parameter name="isMobile"  value="false"/>
+
+    <test name="Citibank Test">
+        <classes>
+            <class name="CitiTests"/>
+        </classes>
+    </test>
+</suite>
